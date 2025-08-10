@@ -5,7 +5,7 @@ const Header = () => {
     <nav style={{ display: "flex", justifyContent: "space-between", padding: "10px", background: "#ddd" }}>
       <h2>Communion App</h2>
       <div>
-        <Link className="bg-red-700" to="/">Home</Link> | 
+        <Link to="/">Home</Link> | 
         <Link to="/events"> Events</Link> | 
         <Link to="/about"> About</Link>
       </div>
